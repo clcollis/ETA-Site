@@ -63,8 +63,9 @@ body {
 }
 /* -------- typography ---------- */
 h1 {
+  font-family: 'Signika', sans-serif;
   font-size: 5rem;
-  font-weight: extra-bold 800; /*why is this being overridden?*/
+  /*font-weight: extra-bold 800; why is this being overridden?*/
   line-height: 1.1;
   color: #4F5D75; #EF8354;
   text-align: center;
@@ -185,10 +186,18 @@ input, textarea {
 
 /*
 1. logo needs to move away from left hand side a bit.
-2. Add icons and anchor linksfor social media
+2. Add icons (font awesome) and anchor links for social media
 3. Add newsletter sign up button
-4. Add link to "teachable" behind the pay wall.
+4. Add anchor link to "teachable" behind the pay wall.
 5. Format feature block -margins/padding.
 6. Format quote
-7. Add contact info
+7. Add contact info - phone, email, company number
 8. Form contact info and add gap between this and t&cs
+9. responsive - picture/text flip on grid 2 and 3?
+responsive - header - hidden logo/social or reorder on sm/xs?
+10. new font for H1?
+11. vh for images
+12. random gap on rhs when small
+fix position of header and footer so they stay when you scroll - not on mobile?
+H1 needs to shrink on mobile devices as "academy" is too long.
+*/
