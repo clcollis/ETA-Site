@@ -49,11 +49,11 @@ img {
 }
 
 .padded-top-1 { padding-top: 1%;}
+.padded-bottom-1 { padding-bottom: 1%}
 
 .padded-side-3 { padding-left: 3%; padding-right: 3%;}
 
 .mob-show { display: none;}
-
 
 .bg-image  {
   background-image: url("../images/placeholder.jpg");
@@ -68,6 +68,13 @@ img {
   background-position: center;
   background-attachment: fixed;
   min-height: 40vh;
+}
+.bg-headshot {
+  background-image: url("../images/headshot.jpg");
+  background-color: pink; /* #EF8354 */
+  background-size: cover;
+  background-position: 50% 25%;
+  min-height:80vh;
 }
 /* ----- UNIVERSAL STYLES --------------------------- */
 .up-arrow {
@@ -90,6 +97,9 @@ img {
   background-color: #4F5D75;
   color: #FFFFFF;
 }
+.bg-video {
+  background-color: #EF8354;
+}
 .picture-block,
 .bg-image,
 .bg-feature-box {
@@ -98,9 +108,6 @@ img {
 .breadcrumbs {
   min-height: 8vh;
   padding-left: 3%;
-  /*border: 3px solid;
-  border-color: #4F5D75;
-  */
 }
 .text-border {
   border: 3px solid;
@@ -152,7 +159,7 @@ header {
   padding-top: 3%;
 }
 header h2 {
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 .social a {
   display: block;
@@ -220,6 +227,10 @@ a.button {
   width: 80%;
   padding: 8%;
 }
+.bg-video h3 {
+  font-size: 2.5rem;
+  font-family: 'Signika', sans-serif;
+}
 .quotation {
   padding: 5%;
 }
@@ -243,9 +254,6 @@ a.button {
   margin-top: 5%;
   margin-bottom: 5%;
 }
-.mobile-show {
-  display: none;
-}
 .main-quote {
   font-size: 2rem;
 }
@@ -268,8 +276,8 @@ a.button {
     .mobile-flip {
         flex-direction: column-reverse;
       }
-    .mobile-show {
-        display: block;
+    .mob-show {
+        display: inline;
     }
     h1 {
       font-size: 4rem;
@@ -281,6 +289,9 @@ a.button {
 @media (max-width:576px) {
     h1 {
       font-size:3rem;
+      text-align: left;
+    }
+    header h2 {
       text-align: left;
     }
     .breadcrumbs a {
@@ -303,6 +314,9 @@ a.button {
       border: none;
       margin: 1rem;
     }
+    .headshot-text-height {
+      min-height: none;
+    }
 }
 
 /* -------- forms -------*/
@@ -321,7 +335,10 @@ input, textarea {
 .bg-vr, .bg-classroom, .bg-ar {
 }
 */
-
+/* --------- about page ------ */
+.headshot-text-height {
+  min-height: 80vh;
+}
 
 /* ----------------------- TO DO ----------------- */
 
