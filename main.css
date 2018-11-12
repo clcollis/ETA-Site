@@ -373,8 +373,14 @@ input, textarea {
 }
 
 /* Individual blog post pages */
-
-
+.bg-blog-fix {
+  background-image: url("../images/placeholder.jpg");
+  background-color: #BFC0C0;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 40vh;
+}
 
 /* ------------ things we love --------------- */
 .affiliate-shop {
