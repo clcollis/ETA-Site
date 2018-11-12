@@ -397,16 +397,19 @@ input, textarea {
   text-decoration: none;
   padding: 15px 11px;
   font-size: 20px;
-  font-weight: bold;
   text-align: center;
+  margin: auto;
 }
-
+.faqs span {
+  font-weight: bold;
+}
 .dropdown-content {
   display: none;
   padding:5px;
   box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
   text-align: center;
   border-radius: 16px;
+  font-weight: none;
 }
 
 .dropdown-content p {
@@ -425,7 +428,7 @@ input, textarea {
   padding: 0.75rem;
 }
 .dropdown-nav span {
-    color: #EF8354;
+    color: #4F5D75;
     border-radius: 16px;
 }
 
