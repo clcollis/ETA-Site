@@ -10,7 +10,7 @@
     - Page Name
 ---------------------------
 Website Fonts: font-family: 'Poppins', sans-serif
-Website Colours: dark: black coral #4F5D75, light: silver #BFC0C0, white #FFFFFF, feature: light red ochre #EF8354
+Website Colours: dark:  #4F5D75, light: #BFC0C0, white #FFFFFF, feature: #EF8354
 ----------------------------
 */
 /* ---- CSS RESET --------------------------- */
@@ -55,25 +55,17 @@ img {
 
 .bg-image  {
   background-image: url("../images/placeholder.jpg");
-  background-color: pink; /* #EF8354 */
+  background-color: #BFC0C0;
   background-size: cover;
   background-position: center;
 }
 .bg-attachment-fix {
   background-image: url("../images/placeholder.jpg");
-  background-color: pink; /* #EF8354 */
+  background-color: #BFC0C0;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
   min-height: 40vh;
-}
-.bg-headshot {
-  background-image: url("../images/headshot.jpg");
-  background-color: pink; /* #EF8354 */
-  background-size: cover;
-  background-position: 50% 25%;
-  padding: 5%;
-  padding-bottom: 138%;
 }
 /* ----- UNIVERSAL STYLES --------------------------- */
 .up-arrow {
@@ -122,7 +114,7 @@ h1 {
   font-family: 'Signika', sans-serif;
   font-size: 4.5rem;
   line-height: 1.1;
-  color: #4F5D75; #EF8354;
+  color: #4F5D75;
   text-align: center;
 }
 h2 {
@@ -160,6 +152,7 @@ header {
 }
 header h2 {
   font-size: 1.5rem;
+  font-family: 'Signika', sans-serif;
 }
 .social a {
   display: block;
@@ -339,6 +332,56 @@ input, textarea {
 /* --------- about page ------ */
 .headshot-text-height {
   min-height: 80vh;
+}
+.bg-headshot {
+  background-image: url("../images/headshot.jpg");
+  background-color: #BFC0C0;
+  background-size: cover;
+  background-position: 50% 25%;
+  padding: 5%;
+  padding-bottom: 138%;
+  min-height: 80vh;
+}
+/* -------- blog landing page -----------*/
+.post-preview {
+  margin: 1rem;
+  margin-top: 0rem;
+  text-align: center;
+}
+.blog-heading {
+  font-family: 'Signika', sans-serif;
+  color: #4F5D75;
+  font-size: 3rem;
+  margin-top: 0.5rem;
+}
+.post-preview a {
+  color:black ;
+  text-decoration:none;
+  display:block;
+}
+.bg-blog-landing {
+  padding: 20%;
+  background-size: cover;
+  background-position: center;
+}
+.blog-text {
+  border: 3px solid;
+  border-color: #EF8354;
+  color: #4F5D75;
+  margin: 1rem;
+  font-family: 'Signika', sans-serif;
+}
+
+/* Individual blog post pages */
+
+
+
+/* ------------ things we love --------------- */
+.affiliate-shop {
+  border: 3px solid;
+  border-color: #4F5D75;
+  margin: 1rem;
+  margin-top: 2rem;
 }
 
 /* ----------------------- TO DO ----------------- */

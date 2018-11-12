@@ -1,11 +1,26 @@
 ---
 layout: default
-title: BLOG 
+title: BLOG
+
 ---
+<!-- ------ breadcrumbs ----- -->
 <section class="grid-middle breadcrumbs bg-feature">
   <div class="padding-5">
-    <p><a href="index.html">HOME</a> /
-      <a href="blog.html">BLOG</a>
+    <p><a href="/index.html">HOME</a> /
+      <a href="/blog.html">BLOG</a>
     </p>
   </div>
+</section>
+<!-- ------ breadcrumbs end ----- -->
+<section>
+<h2 class="blog-heading"> Recents Posts </h2>
+  {% for post in site.posts limit:4 %}
+  <div class="post-preview">
+      <a class-"blog-text" href="{{post.url}}">
+      <h3 class="bg-feature padded-1 blog-text"> {{post.title}} </h3>
+      <div class="post-image bg-blog-landing" style="background-image:url({{post.featured-image}})"> </div>
+      <p class="padded-text"> {{post.description}}</p>
+    </a>
+  </div>
+  {% endfor %}
 </section>
