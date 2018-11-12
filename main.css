@@ -53,8 +53,6 @@ img {
 
 .padded-side-3 { padding-left: 3%; padding-right: 3%;}
 
-.mob-show { display: none;}
-
 .bg-image  {
   background-image: url("../images/placeholder.jpg");
   background-color: pink; /* #EF8354 */
@@ -75,6 +73,7 @@ img {
   background-size: cover;
   background-position: 50% 25%;
   padding: 5%;
+  padding-bottom: 138%;
 }
 /* ----- UNIVERSAL STYLES --------------------------- */
 .up-arrow {
@@ -271,6 +270,7 @@ a.button {
 }
 
 /*  ---------- media queries ------------- */
+.mob-show { display: none;}
 
 @media (max-width:768px) {
     /* For mobile phones -same as gridlex md */
