@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title> {{page.title}} </title>
+
+<title> {page.title} | THE ELT ED TECH ACADEMY </title>
+
+
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="https://fonts.googleapis.com/css?family=Poppins|Signika:700" rel="stylesheet">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-<link href="css/main.css" type="text/css" rel="stylesheet"/>
+<link href="../main.css" type="text/css" rel="stylesheet"/>
 </head>
 <body>
   <!-- ------------ HEADER -------------- -->
@@ -26,7 +29,12 @@
       </div>
       <div class="col-8_sm-9">
         <h1>THE ELT ED TECH ACADEMY</h1>
-        <h2>Supporting English language teaching and learning</h2>
+        <h2>
+          {% if page.url == "/"! %}
+          Supporting English language teaching and learning
+          {% else %} {{page.title}}
+          {% endif %}
+        </h2>
       </div>
       <div class="col-2_sm-hidden social">
         <a href="index.html">LinkedIn</a>
@@ -87,5 +95,6 @@
       <input type="submit" value="SUBMIT" class="button" />
     </form>
   </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </body>
 </html>
