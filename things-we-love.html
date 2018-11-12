@@ -4,12 +4,30 @@ title: THINGS WE LOVE
 affiliate:
   - title: Name of Coursebook
     url: https://www.amazon.co.uk/
-    description: this is a book
+    description: this is a book, we learn from books, we like books, books are good
   - title: A different book
     url: https://www.amazon.co.uk/
-    description: books are good
+    description: books are still good, they really are, especially books about cats
+  - title: Name of Coursebook
+    url: https://www.amazon.co.uk/
+    description: this is a book, we learn from books, we like books, books are good
+  - title: A different book
+    url: https://www.amazon.co.uk/
+    description: this is a book, we learn from books, we like books, books are good
+  - title: Name of Coursebook
+    url: https://www.amazon.co.uk/
+    description: this is a book, we learn from books, we like books, books are good
+  - title: A different book
+    url: https://www.amazon.co.uk/
+    description: books are still good, they really are, especially books about cats
+  - title: Name of Coursebook
+    url: https://www.amazon.co.uk/
+    description: this is a book, we learn from books, we like books, books are good
+  - title: A different book
+    url: https://www.amazon.co.uk/
+    description: this is a book, we learn from books, we like books, books are good
 ---
-
+<!-- ----------------- breadcrumbs ----------- -->
 <section class="grid-middle breadcrumbs bg-feature">
   <div class="padding-5">
     <p><a href="/index.html">HOME</a> /
@@ -17,15 +35,27 @@ affiliate:
     </p>
   </div>
 </section>
+<!-- --------------- end of breadcrumbs ------- -->
 <section>
+  <p class="padded-top-3 padded-side-3 padded-top-3 align-centered affiliate-text affiliate-disclosure"> The products listed on this page are personal recommendations from our staff.  Things they have tried and tested and love.  The links are Amazon Affiliate links which means we get a small percentage from any sales generated from this page, you do not pay any extra for anything.  We hope you love them as much as we do.
+  </p>
+</section>
+<!-- --------------- for loop ----------------- -->
+<section class="grid padded-3">
 
-  {% for item in page.affiliate limit:4 %}
-    <div class="affiliate-shop">
-      <a href="{{item.url}}">
-        <h3> {{item.title}} </h3>
-        <p> {{item.description}}</p>
+  {% for item in page.affiliate %}
+    <div class="col-6-middle_sm-12 padded-3 affiliate-text">
+      <div class="affiliate-shop"
+        <a href="{{item.url}}">
+        <div class="bg-image"></div>
+        <div class="padded-3">
+          <h3> {{item.title}} </h3>
+         <p> {{item.description}}</p>
+        </div>
       </a>
+      </div>
     </div>
 
   {% endfor %}
 </section>
+<!-- -----------end of for loop ---------------- -->

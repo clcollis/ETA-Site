@@ -51,6 +51,8 @@ img {
 .padded-top-1 { padding-top: 1%;}
 .padded-bottom-1 { padding-bottom: 1%}
 
+.padded-top-3 { padding-top: 3%}
+
 .padded-side-3 { padding-left: 3%; padding-right: 3%;}
 
 .bg-image  {
@@ -198,7 +200,6 @@ nav {
   min-height: 15vh;
   color: white;
   text-align: center;
-  position:
 }
 hr {
   /*border-width: 0.15rem;*/
@@ -373,6 +374,7 @@ input, textarea {
 }
 
 /* Individual blog post pages */
+
 .bg-blog-fix {
   background-image: url("../images/placeholder.jpg");
   background-color: #BFC0C0;
@@ -385,9 +387,18 @@ input, textarea {
 /* ------------ things we love --------------- */
 .affiliate-shop {
   border: 3px solid;
-  border-color: #4F5D75;
-  margin: 1rem;
-  margin-top: 2rem;
+  border-color: #EF8354;
+  margin-top: 2.5rem;
+}
+.affiliate-text {
+  line-height: 1.1;
+  font-family: 'Signika', sans-serif;
+  text-align: center;
+}
+.affiliate-disclosure {
+  font-size: 1.2rem;
+  line-height: 1.3;
+
 }
 /*---------- FAQS-------------*/
 
@@ -431,7 +442,11 @@ input, textarea {
     color: #4F5D75;
     border-radius: 16px;
 }
-
+hr.faqs {
+  margin-bottom: 1%;
+  margin-top: 1%;
+  padding: 0;
+}
 
 /* ----------------------- TO DO ----------------- */
 
