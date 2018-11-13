@@ -265,7 +265,7 @@ a.button {
   position: relative;
   z-index: 1;
 }
-.mobile-show-a {
+.mobile-show-a a {
   color: #4F5D75;
 }
 
