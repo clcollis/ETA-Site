@@ -265,6 +265,9 @@ a.button {
   position: relative;
   z-index: 1;
 }
+.mobile-show-a {
+  color: #4F5D75;
+}
 
 /*  ---------- media queries ------------- */
 .mob-show { display: none;}
