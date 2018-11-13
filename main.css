@@ -111,6 +111,9 @@ img {
 body {
   font-family: 'Poppins', sans-serif;
 }
+header {
+  outline: none;
+}
 /* -------- typography ---------- */
 h1 {
   font-family: 'Signika', sans-serif;
@@ -373,7 +376,7 @@ input, textarea {
   font-family: 'Signika', sans-serif;
 }
 
-/* Individual blog post pages */
+/* -------- Individual blog post pages -------- */
 
 .bg-blog-fix {
   background-image: url("../images/placeholder.jpg");
@@ -383,7 +386,10 @@ input, textarea {
   background-attachment: fixed;
   min-height: 40vh;
 }
-
+/* ------------ info pages -------------------*/
+.video-width {
+  width: 90%;
+}
 /* ------------ things we love --------------- */
 .affiliate-shop {
   border: 3px solid;
