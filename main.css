@@ -171,6 +171,9 @@ footer {
 footer a {
   font-size: 1rem;
 }
+.coming-soon {
+  vh: 100;
+}
 /* ------------ modular elements ---------- */
 
 /* logo svg code below here */
