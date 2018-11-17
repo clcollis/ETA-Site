@@ -172,7 +172,7 @@ footer a {
   font-size: 1rem;
 }
 .coming-soon {
-  vh: 100;
+  min-height: 100vh;
 }
 /* ------------ modular elements ---------- */
 
