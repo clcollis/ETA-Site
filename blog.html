@@ -14,7 +14,7 @@ title: BLOG
 <!-- ------ breadcrumbs end ----- -->
 <section>
 <h2 class="blog-heading"> Recents Posts </h2>
-  {% for post in site.posts limit:6 %}
+  {% for post in site.posts %}
   <div class="post-preview">
       <a class-"blog-text" href="{{post.url}}">
       <h3 class="bg-feature padded-1 blog-text"> {{post.title}} </h3>
