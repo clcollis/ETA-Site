@@ -282,7 +282,10 @@ a.button {
         flex-direction: column-reverse;
       }
     .mob-show {
-        display: inline-block;
+        display: inline;
+    }
+    .mob-show a{
+        display: inline;
     }
     h1 {
       font-size: 4rem;
