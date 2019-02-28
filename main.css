@@ -282,7 +282,7 @@ a.button {
         flex-direction: column-reverse;
       }
     .mob-show {
-        display: inline;
+        display: inline-block;
     }
     .mob-show a{
         display: inline;
