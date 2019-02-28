@@ -284,9 +284,9 @@ a.button {
     .mob-show {
         display: inline-block;
     }
-    .mob-show a{
+    /* .mob-show a{
         display: inline;
-    }
+    } */
     h1 {
       font-size: 4rem;
     }
