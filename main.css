@@ -213,6 +213,7 @@ nav {
   min-height: 15vh;
   color: white;
   text-align: center;
+  text-decoration: none;
 }
 hr {
   /*border-width: 0.15rem;*/
