@@ -68,10 +68,7 @@ img {
   background-position: center;
   background-attachment: fixed;
   min-height: 40vh;
-}
-.bg-working-together {
-  background-image: url("../images/working together.jpg");
-}
+
 /* ----- UNIVERSAL STYLES --------------------------- */
 .up-arrow {
   position: fixed;
@@ -344,10 +341,15 @@ input, textarea {
 /* ------------- specific spaces ---------- */
 
 /* ----- home page ------ */
-/*  TO DO ----
-.bg-vr, .bg-classroom, .bg-ar {
+.bg-working-together {
+  background-image: url("../images/working-together.jpg");
 }
-*/
+.bg-happy-students {
+  background image: url("../images/happy-students.jpg")
+}
+.bg-lots-of-info {
+  background image: url("..images/lots-of info.jpg")
+}
 /* --------- about page ------ */
 .headshot-text-height {
   min-height: 80vh;
