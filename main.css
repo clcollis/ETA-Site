@@ -345,10 +345,10 @@ input, textarea {
   background-image: url("../images/working-together.jpg");
 }
 .bg-happy-students {
-  background image: url("../images/happy-students.jpg")
+  background-image: url("../images/happy-students.jpg")
 }
 .bg-lots-of-info {
-  background image: url("..images/lots-of info.jpg")
+  background-image: url("..images/lots-of info.jpg")
 }
 /* --------- about page ------ */
 .headshot-text-height {
