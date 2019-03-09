@@ -9,7 +9,7 @@
   - SPECIFIC PAGES
     - Page Name
 ---------------------------
-Website Fonts: font-family: 'Poppins', sans-serif
+Website Fonts: font-family: 'Poppins',
 Website Colours: dark:  #4F5D75, light: #BFC0C0, white #FFFFFF, feature: #EF8354
 ----------------------------
 */
@@ -116,11 +116,11 @@ header {
 }
 /* -------- typography ---------- */
 h1 {
-  font-family: 'Signika', sans-serif;
+  font-weight:800;
   font-size: 4.5rem;
   line-height: 1.1;
   color: #4F5D75;
-  text-align: center;
+  text-align: left;
 }
 h2 {
   font-size: 2rem;
