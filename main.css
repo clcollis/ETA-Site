@@ -55,8 +55,6 @@ img {
 
 .padded-side-3 { padding-left: 3%; padding-right: 3%;}
 
-.justify-content: space-around;
-
 .bg-image  {
   background-image: url("../images/placeholder.jpg");
   background-color: #BFC0C0;
