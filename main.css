@@ -67,7 +67,7 @@ img {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  min-height: 40vh;
+  min-height: 30vh;
 }
 /* ----- UNIVERSAL STYLES --------------------------- */
 .up-arrow {
@@ -92,6 +92,10 @@ img {
 }
 .bg-video {
   background-color: #EF8354;
+}
+.overlay-light {
+  background-color: rgba(255,255,255,.5);
+}
 }
 .picture-block,
 .bg-image,
