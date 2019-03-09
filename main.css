@@ -138,9 +138,9 @@ h4 {
   font-size: 2rem;
 }
 a {
-  color: #FFFFFF;
+  color: #4F5D75;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 a:visited {
   color: #EF8354;
@@ -157,7 +157,6 @@ header {
 }
 header h2 {
   font-size: 1.5rem;
-  font-family: 'Signika', sans-serif;
 }
 .social a {
   display: block;
