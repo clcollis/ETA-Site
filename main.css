@@ -171,6 +171,9 @@ footer a {
   font-size: 1rem;
   color: white;
 }
+footer-social {
+  display: inline;
+}
 .coming-soon {
   min-height: 100vh;
 }
