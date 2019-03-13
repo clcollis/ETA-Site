@@ -146,6 +146,11 @@ h4 {
   color: #2D3142;
   font-size: 2rem;
 }
+h5 {
+  text-align: center;
+  color: #2D3142;
+  font-size: 1.2rem;  
+}
 a {
   color: #4F5D75;
 /*  font-weight: bold; */
