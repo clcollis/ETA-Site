@@ -283,6 +283,13 @@ a.button {
 /*  ---------- media queries ------------- */
 .mob-show { display: none;}
 
+@media screen and(min-width: 768 px) {
+  .headshot-text-height {
+    min-height: 80vh;
+    padding: 5%;
+    }
+}
+
 @media (max-width:768px) {
     /* For mobile phones -same as gridlex md */
     .mobile-flip {
@@ -300,9 +307,6 @@ a.button {
   }
     nav a {
       font-size: 1rem;
-    }
-    .headshot-text-height {
-      height: auto;
     }
 @media (max-width:576px) {
     h1 {
@@ -329,9 +333,7 @@ a.button {
       border: none;
       margin: 1rem;
     }
-    .headshot-text-height {
-      padding: 5%;
-    }
+
 }
 
 /* -------- forms -------*/
@@ -365,7 +367,8 @@ input, textarea {
 /* --------- about page ------ */
 .headshot-text-height {
   min-height: 80vh;
-}
+  padding: 5%;
+  }
 .bg-headshot {
   background-image: url("../images/headshot.JPG");
   background-size: cover;
