@@ -362,7 +362,6 @@ input, textarea {
 }
 .bg-headshot {
   background-image: url("../images/headshot.jpg");
-  background-color: #BFC0C0;
   background-size: cover;
   background-position: 50% 25%;
   padding: 5%;
