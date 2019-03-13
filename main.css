@@ -48,6 +48,13 @@ img {
   padding-right: 5%;
 }
 
+.padded-text-5 {
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-bottom: 5%;
+  padding-right: 5%;
+}
+
 .padded-top-1 { padding-top: 1%;}
 .padded-bottom-1 { padding-bottom: 1%}
 
