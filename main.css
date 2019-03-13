@@ -70,12 +70,12 @@ img {
 .up-arrow {
   position: fixed;
   background-color: #4F5D75;
-  border-radius: 30px;
+  border-radius: 100%;
   color: #EF8354;
   font-size: 2rem;
   bottom: 1rem;
   right: 1rem;
-  padding: 3px;
+  padding: 3px 11px;
 }
 .bg-feature {
   background-color: #EF8354;
