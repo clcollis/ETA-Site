@@ -354,6 +354,9 @@ input, textarea {
 .bg-lots-of-info {
   background-image: url("..images/lots-of info.jpg")
 }
+.bg-mount-batur {
+  backgroud-image: url("../images/mount-batur.jpg")
+}
 /* --------- about page ------ */
 .headshot-text-height {
   min-height: 80vh;
