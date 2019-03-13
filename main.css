@@ -152,6 +152,7 @@ a:visited {
 }
 .breadcrumbs a {
   color: #4F5D75;
+  font-size: 0.9rem;
 }
 span {
   color: #EF8354;
