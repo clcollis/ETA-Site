@@ -56,8 +56,6 @@ img {
 .padded-side-3 { padding-left: 3%; padding-right: 3%;}
 
 .bg-image  {
-  background-image: url("../images/placeholder.jpg");
-  background-color: #BFC0C0;
   background-size: cover;
   background-position: center;
 }
@@ -348,6 +346,7 @@ input, textarea {
 .bg-working-together {
   background-image: url("../images/working-together.jpg");
 }
+/* ---------- about page ----------- */
 .bg-happy-students {
   background-image: url("../images/happy-students.jpg")
 }
