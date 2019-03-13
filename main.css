@@ -301,6 +301,9 @@ a.button {
     nav a {
       font-size: 1rem;
     }
+    .headshot-text-height {
+      min-height: none;
+    }
 @media (max-width:576px) {
     h1 {
       font-size:3rem;
