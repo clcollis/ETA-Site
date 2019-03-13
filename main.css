@@ -266,6 +266,7 @@ a.button {
 }
 .main-quote {
   font-size: 2rem;
+  font-family: 'Kalam', cursive;
 }
 .bump-left {
   margin-left: -6%;
